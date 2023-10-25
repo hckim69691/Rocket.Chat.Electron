@@ -6,6 +6,7 @@ export default {
   'fr': (): Promise<Resource> => import('./fr.i18n.json'),
   'hu': (): Promise<Resource> => import('./hu.i18n.json'),
   'ja': (): Promise<Resource> => import('./ja.i18n.json'),
+  'ko': (): Promise<Resource> => import('./ko.i18n.json'),
   'pl': (): Promise<Resource> => import('./pl.i18n.json'),
   'pt-BR': (): Promise<Resource> => import('./pt-BR.i18n.json'),
   'ru': (): Promise<Resource> => import('./ru.i18n.json'),

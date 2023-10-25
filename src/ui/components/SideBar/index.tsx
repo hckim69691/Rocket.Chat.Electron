@@ -86,8 +86,8 @@ export const SideBar: FC = () => {
               key={server.url}
               url={server.url}
               title={
-                server.title === 'Rocket.Chat' &&
-                parse(server.url).hostname !== 'open.rocket.chat'
+                server.title === 'G.Chat' &&
+                parse(server.url).hostname !== 'www.tnrcrew.com'
                   ? `${server.title} - ${server.url}`
                   : server.title ?? server.url
               }

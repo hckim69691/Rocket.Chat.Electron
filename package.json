@@ -3,13 +3,13 @@
   "workspaces": [
     "workspaces/*"
   ],
-  "productName": "Rocket.Chat",
-  "name": "rocketchat",
+  "productName": "G.Chat",
+  "name": "gchat",
   "description": "Official OSX, Windows, and Linux Desktop Clients for Rocket.Chat",
   "version": "3.9.9",
-  "author": "Rocket.Chat Support <support@rocket.chat>",
-  "copyright": "© 2016-2023, Rocket.Chat",
-  "homepage": "https://rocket.chat",
+  "author": "G.Chat Support <cyj@genuinecrew.com>",
+  "copyright": "© 2022-2023, GenuineCrew Ltd.",
+  "homepage": "http://www.genuinecrew.com/",
   "license": "MIT",
   "goUrlShortener": "go.rocket.chat",
   "keywords": [

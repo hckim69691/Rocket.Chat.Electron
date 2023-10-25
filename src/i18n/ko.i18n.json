@@ -1,0 +1,347 @@
+{
+  "contextMenu": {
+    "cut": "잘라내기(&t)",
+    "copy": "복사(&C)",
+    "paste": "붙여넣기(&P)",
+    "selectAll": "전체 선택(&a)",
+    "undo": "실행취소(&U)",
+    "redo": "재실행(&R)",
+    "spelling": "철자",
+    "spellingLanguages": "철자법 언어",
+    "moreSpellingSuggestions": "추가 맞춤법 제안",
+    "noSpellingSuggestions": "제안 없음",
+    "copyLinkAddress": "링크 주소 복사",
+    "copyLinkText": "링크 텍스트 복사",
+    "openLink": "링크 열기",
+    "saveImageAs": "이미지를 다른 이름으로 저장...",
+    "copyImage": "이미지 복사"
+  },
+  "dialog": {
+    "about": {
+      "title": "{{- appName}}에 대하여",
+      "version": "버전: <1>{{-version}}</1>",
+      "checkUpdates": "업데이트 확인",
+      "checkUpdatesOnStart": "시작 시 업데이트 확인",
+      "noUpdatesAvailable": "업데이트가 없습니다.",
+      "copyright": "Copyright {{copyright}}",
+      "errorWhenLookingForUpdates": "업데이트를 찾는 중에 오류가 발생했습니다."
+    },
+    "addServer": {
+      "title": "서버 추가",
+      "message": "서버 목록에 \"{{- host}}\"를 추가 하시겠습니까?",
+      "add": "추가",
+      "cancel": "취소"
+    },
+    "addServerError": {
+      "title": "잘못된 호스트",
+      "message": "\"{{- host}}\" 호스트를 확인할 수 없어 추가되지 않았습니다."
+    },
+    "certificateError": {
+      "title": "인증서 오류",
+      "message": "\"{{- issuerName}}\"의 인증서를 신뢰하십니까?",
+      "yes": "예",
+      "no": "아니오"
+    },
+    "downloadRemoval": {
+      "title": "확실합니까?",
+      "message": "이 다운로드를 삭제 하시겠습니까?",
+      "yes": "예",
+      "no": "아니오"
+    },
+    "resetAppData": {
+      "title": "앱 데이터 재설정",
+      "message": "모든 팀에서 로그아웃되고 앱이 원래 설정으로 다시 재설정됩니다. 이 부분은 되돌릴 수 없습니다.",
+      "yes": "예",
+      "cancel": "취소"
+    },
+    "clearPermittedScreenCaptureServers": {
+      "title": "허용된 화면 캡처 서버 지우기",
+      "message": "화면 캡처 서버에 대한 모든 권한이 지워지고 다시 권한을 요청하게 됩니다. 이 부분은 되돌릴 수 없습니다.",
+      "yes": "예",
+      "cancel": "취소"
+    },
+    "screenshare": {
+      "title": "화면 공유",
+      "announcement": "공유할 화면을 선택하세요."
+    },
+    "update": {
+      "title": "업데이트 가능",
+      "announcement": "새로운 업데이트를 사용할 수 있습니다.",
+      "message": "G.Chat 데스크톱 앱의 새 버전을 사용할 수 있습니다!",
+      "currentVersion": "현재 버전:",
+      "newVersion": "새 버전:",
+      "install": "업데이트 설치",
+      "remindLater": "나중에 알림",
+      "skip": "이 버전 건너뛰기"
+    },
+    "updateDownloading": {
+      "title": "업데이트 다운로드 중",
+      "message": "업데이트를 설치할 준비가 되면 알림을 받게 됩니다.",
+      "ok": "OK"
+    },
+    "updateInstallLater": {
+      "title": "나중에 설치",
+      "message": "앱을 종료하면 업데이트가 설치됩니다.",
+      "ok": "OK"
+    },
+    "updateReady": {
+      "title": "업데이트 설치 준비 완료",
+      "message": "업데이트가 다운로드되었습니다.",
+      "installNow": "지금 설치",
+      "installLater": "나중에 설치"
+    },
+    "updateSkip": {
+      "title": "업데이트 건너뛰기",
+      "message": "다음 업데이트가 출시되면 알려드리겠습니다.\n마음이 바뀌면 정보 메뉴에서 업데이트를 확인할 수 있습니다.",
+      "ok": "OK"
+    },
+    "selectClientCertificate": {
+      "announcement": "인증서 선택",
+      "select": "선택",
+      "validDates": "{{-validStart,}}부터 {{-validExpiry,}}까지 유효"
+    },
+    "openingExternalProtocol": {
+      "title": "커스텀 프로토콜과 연결",
+      "message": "{{- protocol }} 링크를 사용하려면 외부 애플리케이션이 필요합니다.",
+      "detail": "요청된 링크는 {{- url }} 입니다. 계속하시겠습니까?",
+      "dontAskAgain": "연결된 앱에서 항상 이러한 유형의 링크를 엽니다.",
+      "yes": "예",
+      "no": "아니오"
+    },
+    "allowVideoCallCaptureScreen": {
+      "title": "화상 통화에서 화면을 캡처하려고 합니다.",
+      "message": "화상 통화에서 화면 캡처 권한을 요청하고 있습니다.",
+      "detail": "{{- url }} 서버의 영상 통화에서 다른 사람과 화면을 공유하려면 권한이 필요합니다.",
+      "dontAskAgain": "화면을 캡처하려면 이 서버의 영상 통화를 항상 허용하세요.",
+      "yes": "허용",
+      "no": "취소"
+    },
+    "outlookCalendar": {
+      "title": "아웃룩 캘린더",
+      "encryptionUnavailableTitle": "암호화할 수 없음",
+      "encryptionUnavailable": "운영 체제가 암호화를 지원하지 않습니다.\n귀하의 자격 증명은 일반 텍스트로 저장됩니다.",
+      "field_required": "이 필드는 필수입니다.",
+      "remember_credentials": "내 자격 증명을 기억하세요.",
+      "cancel": " 취소",
+      "submit": "로그인"
+    }
+  },
+  "downloads": {
+    "title": "다운로드",
+    "notifications": {
+      "downloadFinished": "다운로드 완료",
+      "downloadInterrupted": "다운로드 중지",
+      "downloadCancelled": "다운로드 취소",
+      "downloadFailed": "다운로드 실패",
+      "downloadExpired": "다운로드 만료",
+      "downloadExpiredMessage": "소스에서 다시 다운로드해 보세요."
+    },
+    "filters": {
+      "search": "검색",
+      "server": "서버",
+      "mimeType": "타입",
+      "status": "상태",
+      "clear": "필터 초기화",
+      "all": "전체",
+      "mimes": {
+        "images": "이미지",
+        "videos": "화상",
+        "audios": "음성",
+        "texts": "텍스트",
+        "files": "파일"
+      },
+      "statuses": {
+          "paused": "일시중지",
+        "cancelled": "취소됨"
+      }
+    },
+    "item": {
+      "cancel": "취소",
+      "copyLink": "링크 복사",
+      "errored": "다운로드 취소됨",
+      "pause": "일시중지",
+      "progressSize": "{{receivedBytes, byteSize}} of {{totalBytes, byteSize}} ({{ratio, percentage}})",
+      "remove": "목록에서 제거",
+      "resume": "재개",
+      "retry": "재시도",
+      "showInFolder": "폴더에 표시"
+    },
+    "showingResults": "결과 표시 {{first}} - {{last}} of {{count}}"
+  },
+  "certificatesManager": {
+    "title": "인증서 관리자",
+      "trustedCertificates": "신뢰할 수 있는 인증서",
+    "notTrustedCertificates": "신뢰할 수 없는 인증서",
+    "item": {
+      "domain": "도메인",
+      "actions": "동작",
+      "remove": "제거"
+    }
+  },
+  "settings": {
+    "title": "설정",
+    "general": "일반",
+    "certificates": "인증서",
+    "options": {
+      "report": {
+          "title": "개발자에게 오류 보고",
+        "description": "개발자에게 익명으로 오류를 보고하세요. 공유 정보에는 앱 버전 번호, 운영 체제 유형, 서버 URL, 장치 언어 및 오류 유형이 포함됩니다. 콘텐츠나 사용자 이름은 공유되지 않습니다.",
+        "masDescription": "Mac App Store에서 설치하면 이 옵션이 비활성화됩니다. 오류는 Mac App Store 오류 보고 프로세스를 통해 보고됩니다."
+      },
+      "flashFrame": {
+        "title": "플래시 프레임 활성화",
+        "titleDarwin": "경고 시 Dock 바운스 전환",
+        "description": "사용자의 주의를 끌기 위해 창을 깜박입니다.",
+        "onLinux": "일부 Linux 배포판은 이 기능을 지원하지 않습니다.",
+        "descriptionDarwin": "사용자의 관심을 끌기 위해 앱 아이콘을 Dock에 튀깁니다."
+      },
+      "hardwareAcceleration": {
+        "title": "하드웨어 가속",
+        "description": "가능한 경우 하드웨어 가속을 사용하도록 설정합니다. 변경 시 애플리케이션이 다시 로드됩니다."
+      },
+      "internalVideoChatWindow": {
+        "title": "응용 프로그램 창을 사용하여 영상 채팅 열기",
+        "description": "설정된 경우 애플리케이션 창을 사용하여 영상 채팅이 열리고, 그렇지 않으면 기본 브라우저가 사용됩니다. <strong>Google Meet</strong> 화면 공유는 Electron 애플리케이션에서 지원되지 않으므로 이 구성은 브라우저에서 열리는 Meet 통화 동작을 변경하지 않습니다.",
+        "masDescription": "Mac App Store에서 설치하면 이 옵션이 비활성화됩니다. 보안상의 이유로 기본적으로 브라우저를 사용하여 비디오 채팅이 열립니다."
+      },
+      "minimizeOnClose": {
+        "title": "닫을 때 최소화",
+        "description": "닫히면 앱이 최소화되고 그렇지 않으면 앱이 종료됩니다. 이 기능을 적용하려면 트레이 아이콘을 비활성화해야 합니다."
+      },
+      "menubar": {
+        "title": "메뉴바",
+        "description": "창 상단에 메뉴바를 표시합니다."
+      },
+      "sidebar": {
+        "title": "사이드바",
+        "description": "서버 목록, 다운로드 및 설정이 있는 창 왼쪽에 사이드바를 표시합니다."
+      },
+      "trayIcon": {
+        "title": "트레이 아이콘",
+        "description": "시스템 트레이에 트레이 아이콘을 표시합니다. 트레이 아이콘이 활성화된 경우 앱이 닫힐 때 트레이에 숨겨집니다. 그렇지 않으면 응용 프로그램이 종료됩니다."
+      },
+      "clearPermittedScreenCaptureServers": {
+        "title": "화면 캡처 권한 지우기",
+        "description": "영상 통화 시 다시 묻지 않도록 선택한 화면 캡처 권한을 해제하세요."
+      },
+      "allowScreenCaptureOnVideoCalls": {
+        "title": "영상 통화 시 화면 캡처 허용",
+        "description": "화상 통화 시 화면 캡처를 허용합니다. 각 화상 통화에 대한 권한을 요청합니다."
+      },
+      "ntlmCredentials": {
+        "title": "NTLM 자격증명",
+        "description": "서버에 연결할 때 NTLM 자격 증명을 사용하도록 허용합니다.",
+        "domains": "자격 증명을 사용할 도메인입니다. 쉼표로 구분됩니다. 모든 도메인을 일치시키려면 *를 사용하세요."
+      }
+    }
+  },
+  "error": {
+    "authNeeded": "인증이 필요합니다. <strong>{{- auth}}</strong>를 시도해 보세요.",
+    "connectTimeout": "연결 시도 중 시간이 초과되었습니다.",
+    "differentCertificate": "인증서가 이전 인증서와 다릅니다.\n\n {{- detail}}",
+    "noValidServerFound": "URL에서 유효한 서버를 찾을 수 없습니다.",
+    "offline": "인터넷 연결을 확인하세요!"
+  },
+  "landing": {
+    "invalidUrl": "잘목된 url",
+    "validating": "검증 중...",
+    "inputUrl": "서버 URL을 입력하세요.",
+    "connect": "접속"
+  },
+  "menus": {
+    "about": "{{- appName}}에 대하여",
+    "addNewServer": "새 서버 추가(&n)",
+    "back": "뒤로(&B)",
+    "clearTrustedCertificates": "신뢰할 수 있는 인증서 지우기",
+    "close": "닫기",
+    "copy": "복사(&C)",
+    "cut": "잘라내기(&t)",
+    "disableGpu": "GPU 비활성화",
+    "documentation": "문서",
+    "downloads": "다운로드",
+    "settings": "설정",
+    "editMenu": "편집(&E)",
+    "fileMenu": "파일(&F)",
+    "forward": "앞으로(&F)",
+    "helpMenu": "도움말(&H)",
+    "hide": "{{- appName}} 숨기기",
+    "hideOthers": "다른 사람 숨기기",
+    "learnMore": "더 알아보기",
+    "minimize": "최소화",
+    "openDevTools": "DevTool 열기(&D)",
+    "openDevToolsOnAllWindows": "모든 창에서 DevTools 열기(&D)",
+    "paste": "붙여넣기(&P)",
+    "quit": "{{- appName}} 종료(&Q)",
+    "redo": "재실행(&R)",
+    "reload": "새로고침(&R)",
+    "reloadIgnoringCache": "캐시를 무시하고 새로고침",
+    "reportIssue": "이슈 리포트",
+    "resetAppData": "앱 데이터 재설정",
+    "resetZoom": "확대/축소 재설정",
+    "selectAll": "전체 선택(&a)",
+    "services": "서비스",
+    "showFullScreen": "전체 화면",
+    "showMenuBar": "메뉴바",
+    "showOnUnreadMessage": "읽지 않은 메시지에 표시",
+    "showServerList": "서버 목록",
+    "showTrayIcon": "트레이 아이콘",
+    "toggleDevTools": "DevTools 전환(&D)",
+    "undo": "살행취소(&U)",
+    "unhide": "모두 보기",
+    "viewMenu": "뷰(&V)",
+    "windowMenu": "윈도우(&W)",
+    "zoomIn": "확대",
+    "zoomOut": "축소"
+  },
+  "loadingError": {
+    "title": "서버를 로드하지 못했습니다.",
+    "announcement": "휴스턴, 우리에게 문제가 생겼다.",
+    "reload": "새로고침"
+  },
+  "selfxss": {
+    "title": "중지!",
+    "description": "이는 개발자를 위한 브라우저 기능입니다. G.Chat 기능을 활성화하거나 다른 사람의 계정을 \"해킹\"하기 위해 여기에 무언가를 복사하여 붙여넣으라고 누군가가 지시했다면 이는 사기이며 해당 사람이 귀하의 G.Chat 계정에 액세스할 수 있게 됩니다.",
+    "moreInfo": "See https://go.g.chat/i/xss for more information."
+  },
+  "sidebar": {
+    "addNewServer": "새 서버 추가",
+    "downloads": "다운로드",
+    "settings": "설정",
+    "item": {
+      "reload": "서버 새로고침",
+      "remove": "서버 제거",
+      "openDevTools": "DevTools 열기",
+      "clearCache": "Cache 초기화",
+      "clearStorageData": "Storage Data 초기화",
+      "copyCurrentUrl": "현재 URL 복사"
+    }
+  },
+  "touchBar": {
+    "formatting": "서식",
+    "selectServer": "서버 선택"
+  },
+  "tray": {
+    "menu": {
+      "show": "보이기",
+      "hide": "숨기기",
+      "quit": "종료"
+    },
+    "tooltip": {
+      "noUnreadMessage": "{{- appName}}: 읽지 않은 메시지가 없습니다.",
+      "unreadMention": "{{- appName}}: 읽지 않은 멘션/다이렉트 메시지가 있습니다.",
+      "unreadMention_plural": "{{- appName}}: 읽지 않은 멘션/다이렉트 메시지가 {{- count}}개 있습니다.",
+      "unreadMessage": "{{- appName}}: 읽지 않은 메시지가 있습니다."
+    },
+    "balloon": {
+      "stillRunning": {
+        "title": "{{- appName}}이(가) 아직 실행 중 입니다.",
+        "content": "{{- appName }}은(는) 시스템 트레이/알림 영역에서 계속 실행되도록 설정되어 있습니다."
+      }
+    }
+  },
+  "taskbar": {
+    "unreadMessage": "읽지 않은 메시지",
+    "unreadMention": "읽지 않은 멘션",
+    "noUnreadMessage": "읽지 않은 메시지 없음"
+  }
+}

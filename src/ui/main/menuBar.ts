@@ -41,7 +41,7 @@ const createAppMenu = createSelector(
   selectAddServersDeps,
   ({ isAddNewServersEnabled }): MenuItemConstructorOptions => ({
     id: 'appMenu',
-    label: process.platform === 'darwin' ? app.name : t('menus.fileMenu'),
+    label: 'G.Chat',
     submenu: [
       ...on(process.platform === 'darwin', () => [
         {
